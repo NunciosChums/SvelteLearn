@@ -2,9 +2,6 @@
   import { querystring } from "svelte-spa-router";
   import qs from "qs";
 
-  console.log($querystring);
-  console.log(qs.parse($querystring));
-
   $: query = qs.parse($querystring);
   $: name = query.name || "진창훈";
   $: email = query.email || "abc@abc.com";

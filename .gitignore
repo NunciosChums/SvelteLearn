@@ -230,3 +230,5 @@ fabric.properties
 .idea/codestream.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,vscode,dotenv,node
+# Local Netlify folder
+.netlify

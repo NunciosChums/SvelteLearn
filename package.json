@@ -9,6 +9,7 @@
     "axios": "^1.2.2",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "lodash": "^4.17.21",
+    "netlify-cli": "^12.7.0",
     "postcss": "^8.4.21",
     "qs": "^6.11.0",
     "snowpack": "^3.8.8",
@@ -23,6 +24,7 @@
   },
   "scripts": {
     "dev": "snowpack dev",
+    "dev:netlify": "netlify dev",
     "build": "snowpack build"
   }
 }
