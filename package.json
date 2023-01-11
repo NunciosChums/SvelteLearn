@@ -23,8 +23,8 @@
     "svelte": "^3.55.0"
   },
   "scripts": {
-    "dev": "snowpack dev",
-    "dev:netlify": "netlify dev",
+    "dev:snowpack": "snowpack dev",
+    "dev": "netlify dev",
     "build": "snowpack build"
   }
 }
